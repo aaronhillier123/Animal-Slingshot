@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1034006353535288}
+  m_IsPrefabParent: 1
+--- !u!1 &1034006353535288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4404368849395872}
+  - component: {fileID: 114114071031972198}
+  - component: {fileID: 114221564525833434}
+  m_Layer: 0
+  m_Name: AnimalSlingshot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404368849395872
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034006353535288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0156286, y: 0.11217995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114114071031972198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034006353535288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0378e48e6e5ec44b46eab57a209780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Current: {fileID: 0}
+  Loaded: {fileID: 0}
+  Target: {fileID: 1000010687646270, guid: bc93e3c81607a484089420b511a1cfd2, type: 2}
+  EndPanel: {fileID: 1438319766821244, guid: 84bb99e77e488dd40861b0d6e093658c, type: 2}
+  MainButton: {fileID: 114000010312791600, guid: 2ba1f93850725b74292fe243f9874cc4,
+    type: 2}
+  Bullet: {fileID: 1254079726955660, guid: e3769b97d0e2b3342bf6310c6d152fd4, type: 2}
+  started: 0
+  GameOver: 0
+  GoodScoreText: {fileID: 114000011766805782, guid: ce86dcfc8e3ab3244ba605a95740b0f8,
+    type: 2}
+  BadScoreText: {fileID: 114327397337454680, guid: 5b1dca3bd16a3034ba537f203c39af9f,
+    type: 2}
+  CShape: 1
+  GoodScore: 0
+  BadScore: 0
+  able: 1
+  mode: 
+  ended: 0
+--- !u!114 &114221564525833434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034006353535288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128a205b010176b4386751c65a3689fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
